@@ -3,7 +3,11 @@
   "version": "0.0.1",
   "description": "Testing edgeware node functionality",
   "scripts": {
-    "query-old-eras": "ts-node -T ./scripts/query-old-eras.ts"
+    "query-old-eras": "ts-node -T ./scripts/query-old-eras.ts",
+    "test-session-keys": "ts-node -T ./tests/sessionKeys.ts",
+    "test-queued-keys": "ts-node -T ./tests/queuedKeys.ts",
+    "test-era-prefs": "ts-node -T ./tests/eraPrefs.ts",
+    "test-validator-prefs": "ts-node -T ./tests/validatorPrefs.ts"
   },
   "engines": {
     "node": "12.3.1"
